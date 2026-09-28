@@ -57,7 +57,7 @@ function App() {
         ...previousMessages,
         {
           sender: "bot",
-          text: "Sorry, I could not connect to the chatbot server .",
+          text: "Sorry, I could not connect to the chatbot server.",
         },
       ]);
     } finally {
